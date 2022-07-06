@@ -2,10 +2,3 @@ people = [ 'Lebron','Aaliyah','Diamond','Dominique','Aliyah','Jazmin','Darnell',
 
 #Your code here:
 
-def myFunc(x):
-  if x == "Wally":
-    return x
- 
-y = map(myFunc, people)
-
-print(filter(y))
