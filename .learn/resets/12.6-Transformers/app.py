@@ -7,9 +7,3 @@ incoming_ajax_data = [
 ]
 
 #Your code go here:
-#name_list = list(map(lambda person:  person["name"] , people))
-name = list(map(lambda name_person: name_person["name"], incoming_ajax_data))
-
-
-
-
