@@ -1,13 +1,14 @@
 people = ['juan','ana','michelle','daniella','stefany','lucy','barak']
 
 #Your code go here:
-arr = []
-def deletePerson(person_name):
-    #Your code go here:
-    for person_name in people:
-        if person_name == people:
-            del(people)
-    return people
+new_people = []
+
+def deletePerson(person):
+    for i in people:
+        if person == i:
+            people.remove(person)
+            new_people.append(people)
+    return new_people
     
 print(deletePerson("daniella"))
 print(deletePerson("juan"))

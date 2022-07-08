@@ -12,9 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def my_function(task):
-    return task.done == False
-
-done_tasks = list(filter(my_function, tasks))
-print(done_tasks)
 
